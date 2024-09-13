@@ -7,7 +7,7 @@ permalink: /materials/
 
 ## Required Textbook
 
-- [Python Crash Course, 3rd Edition](https://www.nostarch.com/pythoncrashcourse3e) by Eric Matthes - A comprehensive introduction to Python programming, covering basics to advanced topics with practical projects.
+- [Python Crash Course, 3rd Edition](https://ehmatthes.github.io/pcc/) by Eric Matthes - A comprehensive introduction to Python programming, covering basics to advanced topics with practical projects.
 
 ## Online Documentation
 
@@ -15,14 +15,17 @@ permalink: /materials/
 - [Python Wiki](https://wiki.python.org/moin/) - A collaborative space for Python documentation and community resources.
 - [Real Python](https://realpython.com/) - Tutorials and articles on Python programming.
 
-## Interactive Learning Platforms
-
+## Free online courses 
+- [Harvard's Introduction to Python](https://cs50.harvard.edu/python/2022/)
+- [Introduction to Python](https://profound.academy/python-introduction) - In this course, you will learn a lot about the language and programming in general.
 - [Codecademy](https://www.codecademy.com/learn/learn-python-3) - Interactive Python courses for beginners.
 - [Coursera](https://www.coursera.org/courses?query=python) - Python courses from top universities and institutions.
 - [edX](https://www.edx.org/learn/python) - Python programming courses from various universities.
+- [Introduction to Computer Science and Programming in Python] (https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
+- [Python Programming MOOC ](https://programming-24.mooc.fi/) - This is the course material page for the Introduction to Programming course and the Advanced Course in Programming from the Department of Computer Science at the University of Helsinki.
 
 ## YouTube Channels
-
+- [Python Tutorial - Python Full Course for Beginners](https://youtu.be/_uQrJ0TkZlc?si=BXzavVfLhGLTD5jS)
 - [Corey Schafer](https://www.youtube.com/user/schafer5) - Python tutorials and programming tips.
 - [Programming with Mosh](https://www.youtube.com/user/programmingwithmosh) - Python tutorials for beginners and advanced learners.
 - [Tech With Tim](https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg) - Python tutorials and projects.
