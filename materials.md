@@ -10,8 +10,8 @@ permalink: /materials/
 {% assign book = site.data.books.required %}
 <div class="card mb-3">
   <div class="row g-0">
-    <div class="col-md-4">
-      <img src="{{ book.image | relative_url }}" class="img-fluid rounded-start h-50" alt="{{ book.title }} Cover">
+    <div class="col-md-2">
+      <img src="{{ book.image | relative_url }}" class="img-fluid rounded-start" alt="{{ book.title }} Cover">
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -31,7 +31,7 @@ permalink: /materials/
    {% assign book = site.data.books.required %}
    <div class="card mb-3">
      <div class="row g-0">
-       <div class="col-md-4">
+       <div class="col-md-2">
          <img src="{{ book.image | relative_url }}" class="img-fluid rounded-start" alt="{{ book.title }} Cover">
        </div>
        <div class="col-md-8">
