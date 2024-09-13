@@ -8,9 +8,35 @@ required:
   link: "https://ehmatthes.github.io/pcc/"
 
 suggested:
-  - title: "Automate the Boring Stuff with Python"
+  - title: "Automate the Boring Stuff with Python, 2nd Edition"
     author: "Al Sweigart"
     isbn: "978-1593279929"
+    year: 2022
+    publisher: "No Starch Press"
     image: "/_images/atbsf2e.jpg"
-    purchase_link: "https://automatetheboringstuff.com/"
-  # Add more suggested books here
+    link: "https://automatetheboringstuff.com/"
+  
+  - title: "Fluent Python, 2nd Edition"
+    author: "Luciano Ramalho"
+    isbn: "9781492056355"
+    year: 2022
+    publisher: "O'Reilly Media, Inc." 
+    image: "/_images/fluent-py.jpeg"
+    link: "https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/"
+  
+  - title: "Learning Python: Powerful Object-Oriented Programming, 5th Edition"
+    author: "Mark Lutz"
+    isbn: "9781449355739"
+    year: 2023
+    publisher: "O'Reilly Media, Inc."
+    image: "/_images/learning-py.jpg"
+    link: "https://www.oreilly.com/library/view/learning-python-5th/9781449355722/"
+  
+  - title: "Grokking Algorithms, Second Edition, 2nd Edition"
+    author: "Aditya Bhargava"
+    isbn: "978-1617292231"
+    year: 2024
+    publisher: "Manning Publications"
+    image: "/_images/grokking-algo2e.jpg"
+    link: "https://www.manning.com/books/grokking-algorithms-second-edition"
+  
