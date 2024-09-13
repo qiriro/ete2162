@@ -45,6 +45,7 @@ permalink: /materials/
            <a href="{{ book.link }}" class="btn btn-primary">More info</a>
          </div>
        </div>
+        <hr class="mt-1 mb-1"/>
      </div>
    {% endfor %}
    </div>
