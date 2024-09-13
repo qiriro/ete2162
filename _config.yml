@@ -1,5 +1,5 @@
 # Site settings
-course_name: Analogue Electronics
+course_name: Python Programming 
 course_description: This course hands-on course explore the fundamentals of computer science through Python programming. In this course, you will learn to write code, work with data structures, and create real-world projects including games, data visualizations, and web applications.
 course_semester: 
 course_semester: 2024, Semester I
@@ -12,10 +12,7 @@ schoolurl: "https://qiriro.com"
 
 twitter_username: nkuzito 
 
-address: |
-    Kizito NKURIKIYEYEZU, Ph.D.
-    http://qiriro.com
-
+address: 
 # Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
 # google_analytics: UA-XXXXXXXX-X
 google_analytics: UA-255547804
