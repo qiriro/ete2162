@@ -115,3 +115,17 @@ body {
     background-color: var(--dark-background-color);
     color: var(--dark-text-color);
   }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .card {
+    flex: 1 1 calc(33.333% - 1rem);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: var(--background-color);
+  }
