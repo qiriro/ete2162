@@ -101,11 +101,11 @@ permalink: /materials/
 - [Reddit r/learnpython](https://www.reddit.com/r/learnpython/) - A subreddit for Python learners.
 - [Python Discord](https://pythondiscord.com/) - A large community of Python enthusiasts.
 
-## Additional Books
+## Additional Pyton Tools and Libraries 
 
-- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) by Al Sweigart - Practical programming for total beginners.
-- [Fluent Python](https://www.oreilly.com/library/view/fluent-python/9781491946237/) by Luciano Ramalho - Clear, concise, and effective programming.
-- [Python for Data Analysis](https://www.oreilly.com/library/view/python-for-data/9781491957653/) by Wes McKinney - Data wrangling with Pandas, NumPy, and IPython.
+- [Best-of Python](https://github.com/ml-tooling/best-of-python) - A ranked list of awesome Python open-source libraries & tools. 
+-[Awesome Python](https://github.com/vinta/awesome-python) - An opinionated list of awesome Python frameworks, libraries, software and resources.
+-[Project Based Learning](https://github.com/practical-tutorials/project-based-learning?tab=readme-ov-file#python)
 
 ## Python Package Index (PyPI)
 

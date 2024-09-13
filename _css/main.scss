@@ -129,3 +129,35 @@ body {
     padding: 1rem;
     background-color: var(--background-color);
   }
+  .sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: var(--background-color);
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .navbar-toggler {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-toggler {
+      display: block;
+    }
+  
+    .collapse {
+      display: none;
+    }
+  
+    .collapse.show {
+      display: block;
+    }
+  }
