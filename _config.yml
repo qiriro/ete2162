@@ -1,0 +1,54 @@
+# Site settings
+course_name: Analogue Electronics
+course_description: This course hands-on course explore the fundamentals of computer science through Python programming. In this course, you will learn to write code, work with data structures, and create real-world projects including games, data visualizations, and web applications.
+course_semester: 
+course_semester: 2024, Semester I
+
+baseurl: "/ete2162" 
+url: "https://qiriro.com" 
+
+schoolname: ""
+schoolurl: "https://qiriro.com"
+
+twitter_username: nkuzito 
+
+address: |
+    Kizito NKURIKIYEYEZU, Ph.D.
+    http://qiriro.com
+
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+# google_analytics: UA-XXXXXXXX-X
+google_analytics: UA-255547804
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%m/%d/%Y"  
+
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: true
+    assignments:
+        output: true
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"
