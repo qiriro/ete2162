@@ -6,6 +6,28 @@ permalink: /materials/
 
 
 ## Required Textbook
+
+{% assign book = site.data.books.required %}
+<div class="card mb-3">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="{{ book.image | relative_url }}" class="img-fluid rounded-start h-50" alt="{{ book.title }} Cover">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{ book.title }}</h5>
+        <p class="card-text">
+          <strong>Author:</strong> {{ book.author }}<br>
+          <strong>ISBN:</strong> {{ book.isbn }}<br>
+          <strong>Publisher:</strong> {{ book.publisher }} ({{ book.year }})
+        </p>
+        <a href="{{ book.link }}" class="btn btn-primary">More info</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
    {% assign book = site.data.books.required %}
    <div class="card mb-3">
      <div class="row g-0">
