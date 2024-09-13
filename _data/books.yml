@@ -40,3 +40,13 @@ suggested:
     image: "/_images/grokking-algo2e.jpg"
     link: "https://www.manning.com/books/grokking-algorithms-second-edition"
   
+  - title: "The Hitchhiker’s Guide to Python!"
+    author: "Kenneth Reitz` and `Tanya Schlusser"
+    isbn: "978-1491933176"
+    year: 2022
+    publisher: "O'Reilly Media, Inc."
+    image: "/_images/h-guide-to-py.jpg"
+    link: "https://docs.python-guide.org/#the-hitchhiker-s-guide-to-python"
+
+
+  
