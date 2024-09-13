@@ -9,6 +9,35 @@ permalink: /materials/
 
 - [Python Crash Course, 3rd Edition](https://ehmatthes.github.io/pcc/) by Eric Matthes - A comprehensive introduction to Python programming, covering basics to advanced topics with practical projects.
 
+   {% assign book = site.data.books.required %}
+   <table>
+     <tr>
+       <td><img src="{{ book.image | relative_url }}" alt="{{ book.title }} Cover" width="200"></td>
+       <td>
+         <strong>Title:</strong> {{ book.title }}<br>
+         <strong>Author:</strong> {{ book.author }}<br>
+         <strong>ISBN:</strong> {{ book.isbn }}<br>
+         <strong>Publisher:</strong> {{ book.publisher }} ({{ book.year }})<br>
+         <a href="{{ book.link }}">Book resource page</a>
+       </td>
+     </tr>
+   </table>
+
+## Suggested Textbooks
+   {% for book in site.data.books.suggested %}
+   <table>
+     <tr>
+       <td><img src="{{ book.image | relative_url }}" alt="{{ book.title }} Cover" width="150"></td>
+       <td>
+         <strong>{{ book.title }}</strong><br>
+         by {{ book.author }}<br>
+         ISBN: {{ book.isbn }}<br>
+         <a href="{{ book.link }}">More Info</a>
+       </td>
+     </tr>
+   </table>
+   {% endfor %}
+ 
 ## Online Documentation
 
 - [Official Python Documentation](https://docs.python.org/3/) - The official and most comprehensive source of Python documentation.
@@ -21,7 +50,7 @@ permalink: /materials/
 - [Codecademy](https://www.codecademy.com/learn/learn-python-3) - Interactive Python courses for beginners.
 - [Coursera](https://www.coursera.org/courses?query=python) - Python courses from top universities and institutions.
 - [edX](https://www.edx.org/learn/python) - Python programming courses from various universities.
-- [Introduction to Computer Science and Programming in Python] (https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
+- [Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
 - [Python Programming MOOC ](https://programming-24.mooc.fi/) - This is the course material page for the Introduction to Programming course and the Advanced Course in Programming from the Department of Computer Science at the University of Helsinki.
 
 ## YouTube Channels

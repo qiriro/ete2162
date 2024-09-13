@@ -1,0 +1,16 @@
+required:
+  title: "Python Crash Course, 3rd Edition"
+  author: "Eric Matthes"
+  isbn: "978-1718502702"
+  publisher: "No Starch Press"
+  year: 2023
+  image: "/_images/pcc.jpg"
+  link: "https://ehmatthes.github.io/pcc/"
+
+suggested:
+  - title: "Automate the Boring Stuff with Python"
+    author: "Al Sweigart"
+    isbn: "978-1593279929"
+    image: "/_images/atbsf2e.jpg"
+    purchase_link: "https://automatetheboringstuff.com/"
+  # Add more suggested books here
