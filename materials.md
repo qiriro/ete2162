@@ -23,46 +23,20 @@ permalink: /materials/
      </tr>
    </table>
 
-
-   {% assign book = site.data.books.required %}
-   <div class="card mb-3">
-     <div class="row g-0">
-       <div class="col-md-4">
-         <img src="{{ book.image | relative_url }}" class="img-fluid rounded-start" alt="{{ book.title }} Cover">
-       </div>
-       <div class="col-md-8">
-         <div class="card-body">
-           <h5 class="card-title">{{ book.title }}</h5>
-           <p class="card-text">
-             <strong>Author:</strong> {{ book.author }}<br>
-             <strong>ISBN:</strong> {{ book.isbn }}<br>
-             <strong>Publisher:</strong> {{ book.publisher }} ({{ book.year }})
-           </p>
-           <a href="{{ book.link }}" class="btn btn-primary">Buy on Amazon</a>
-         </div>
-       </div>
-     </div>
-   </div>
-
 ## Suggested Textbooks
    
-<div class="row row-cols-1 row-cols-md-2 g-4">
-   {% for book in site.data.books.suggested %}
-     <div class="col">
-       <div class="card h-100">
-         <img src="{{ book.image | relative_url }}" class="card-img-top" alt="{{ book.title }} Cover">
-         <div class="card-body">
-           <h5 class="card-title">{{ book.title }}</h5>
-           <p class="card-text">
-             <strong>Author:</strong> {{ book.author }}<br>
-             <strong>ISBN:</strong> {{ book.isbn }}
-           </p>
-           <a href="{{ book.link }}" class="btn btn-secondary">More Info</a>
-         </div>
-       </div>
-     </div>
-   {% endfor %}
-   </div>
+{% for book in site.data.books.suggested %}
+   <table>
+     <tr>
+       <td><img src="{{ book.image | relative_url }}" alt="{{ book.title }} Cover" width="150"></td>
+       <td>
+         <strong>{{ book.title }}</strong><br>
+         by {{ book.author }}<br>
+         ISBN: {{ book.isbn }}<br>
+         <a href="{{ book.purchase_link }}">More Info</a>
+       </td>
+     </tr>
+   </table>
 
 ## Online Documentation
 
