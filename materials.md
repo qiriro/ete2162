@@ -50,6 +50,11 @@ permalink: /materials/
    {% endfor %}
    </div>
 
+## Installation 
+- [Introduction to Visual Studio Code](https://realpython.com/lessons/introduction-visual-studio-code/)
+- [Python Development in Visual Studio Code](https://realpython.com/python-development-visual-studio-code/)
+
+
 ## Online Documentation
 
 - [Official Python Documentation](https://docs.python.org/3/) - The official and most comprehensive source of Python documentation.
