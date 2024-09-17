@@ -109,9 +109,7 @@ permalink: /materials/
 ## Additional Pyton Tools and Libraries 
 
 - [Best-of Python](https://github.com/ml-tooling/best-of-python) - A ranked list of awesome Python open-source libraries & tools. 
-
 -[Awesome Python](https://github.com/vinta/awesome-python) - An opinionated list of awesome Python frameworks, libraries, software and resources.
-
 -[Project Based Learning](https://github.com/practical-tutorials/project-based-learning?tab=readme-ov-file#python)
 
 ## Python Package Index (PyPI)
