@@ -1,0 +1,22 @@
+grade_manager/
+├── README.md
+├── requirements.txt
+├── setup.py
+├── src/
+│   ├── __init__.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── course_manager.py
+│   │   └── grade_manager.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── validators.py
+│   │   └── display.py
+│   └── cli/
+│       ├── __init__.py
+│       └── menu.py
+└── tests/
+    ├── __init__.py
+    ├── test_course_manager.py
+    ├── test_grade_manager.py
+    └── test_validators.py
